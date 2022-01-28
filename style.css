@@ -49,11 +49,9 @@ button {
   height: 30px;
   border: 1px solid gray;
   width: 100px;
+  padding: 10px;
 }
 
 .result label {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
+  display: block;
 }
