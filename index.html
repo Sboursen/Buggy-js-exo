@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Find the bug</title>
+</head>
+
+<body>
+  <header>
+    <h1>Challenge: Find the bug</h1>
+    <p>In this challenge, you will try to find the bug in my
+      JavaScript file</p>
+
+  </header>
+
+  <main>
+    <h2>Description:</h2>
+    <p>I have built a simple calculator that takes two
+      integer <code>a mod b</code> and <strong>b</strong>
+      numbers and returns the <code>a mod b</code> <br>
+      However there is a problem with my code. The operation
+      doesn't return the correct value :( <br> Can you help
+      me find the Bug?</p>
+
+    <div class="calculator">
+      <div class="first-value">
+        <label for="first-number">first number (b)</label>
+        <input type="number" id="first-number" name="numberA"
+          required maxlength="6" pattern="/[1-9][0-9]*/">
+      </div>
+      <div class="second-value">
+        <label for="second-number">second number (a)</label>
+        <input type="number" id="second-number" name="numberB"
+          required maxlength="6" pattern="/[1-9][0-9]*/">
+      </div>
+      <button type="button" class="calculate">Calculate</button>
+      <div class="result"></div>
+    </div>
+
+  </main>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
